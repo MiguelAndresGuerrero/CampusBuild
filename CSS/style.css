@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0080ff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button{
+    color: #0080ff;
+    background-color: rgba(0, 0, 0, 0.185);
+    border-radius: 50px;
+}
+
+form button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #0080ff;
+    color: black;
+}
+
+#lista-proyectos {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
